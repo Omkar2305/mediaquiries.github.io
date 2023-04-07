@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quiries</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main{
+            height: 80vh;
+            background-color: crimson;
+            color:initial;
+        }
+        /* Iphone SE */
+
+         @media screen and (min-width:370px) and (max-width:375px) {
+
+            .main{
+                background-color: aqua;
+                font-size: 2rem;
+            }
+            
+         }
+         /* Ipad */
+
+         @media screen and (min-width:819px) and (max-width:820px) {
+            
+            .main{
+                background-color: chartreuse;
+                font-size: 3rem;
+                color: aqua;
+            }
+            
+         }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Hello from media quiries</h1>
+    </div>
+</body>
+</html>
